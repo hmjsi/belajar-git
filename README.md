@@ -23,27 +23,33 @@ usage: git [--version] [--help] [-C <path>] [-c name=value]
 ```
 
 Daftar perintah Git
+
+__Memulai menggunakan Git (tips: git help tutorial)__
 | Perintah   | Penjelasan                                                                           |
 |:---------- | -------------------------------------------------------------------------------------|
-|            | Memulai menggunakan Git (tips: git help tutorial)                                    |
-|..........  | .....................................................................................|
 | `clone`    | Mengkloning repositori dari `upstream`                                               |
 | `init`     | Membuat repositori Git atau untuk menginisialisasi repositori yang sudah ada         |
-|..........  | .....................................................................................|
-|            | Bekerja pada perubahan saat ini (tips: git help everyday)                            |
+
+__Bekerja pada perubahan saat ini (tips: git help everyday)__
+| Perintah   | Penjelasan                                                                           |
+|:---------- | -------------------------------------------------------------------------------------|
 | `add`      | Menambahkan konten dalam berkas pada daftar (track file)                             |
 | `mv`       | Memindahkan atau mengubha nama file, direktori, atau _symlink_                       |
 | `reset`    | Mereset "_HEAD_" pada saat ini ke commit spesifik                                    |
 | `rm`       | Menghapus berkas pada direktori kerja saan ini dari daftar (track file)              |
-|..........  | .....................................................................................|
-|            | Memeriksa history dan commit (tips: git help revisions)                              |
+
+__Memeriksa history dan commit (tips: git help revisions)__
+| Perintah   | Penjelasan                                                                           |
+|:---------- | -------------------------------------------------------------------------------------|
 | `bisect`   | Menggunakan pencarian _binari_ untuk mencari commit tertentu                         |
 | `grep`     | Mencetak baris-baris yang cocok dengan pola tertentu                                 |
 | `log`      | Menampilkan catatan-catatan commit                                                   |
 | `show`     | Menampilkan beberapa jenis objek                                                     |
 | `status`   | Menampilkan status pada perkerjaan saat ini                                          |
-|..........  | .....................................................................................|
-|            | Pengembangan, Penadaan, dan mengkostumisasi history umum                             |
+
+__Pengembangan, Penadaan, dan mengkostumisasi history umum__
+| Perintah   | Penjelasan                                                                           |
+|:---------- | -------------------------------------------------------------------------------------|
 | `branch`   | Daftar, Penambahan, dan menghapus cabang                                             |
 | `checkout` | Mengganti atau beralih dari cabang ke cabang yang lain atau mengembalikan perkerjaan |
 | `commit`   | Menyimpan perubahan ke repositori                                                    |
@@ -51,8 +57,10 @@ Daftar perintah Git
 | `merge`    | Menggabungkan dua atau lebih dari commit atau cabang                                 |
 | `rebase`   | Mengajukan kembali commit di atas ujung basis lainnya                                |
 | `tag`      | Menambahkan, menmpilkan daftar, menghapus, atau memverifikasi tag                    |
-|..........  | .....................................................................................|
-|            | Kolaborasi (tips: git help workflows)                                                |
+
+__Kolaborasi (tips: git help workflows)__
+| Perintah   | Penjelasan                                                                           |
+|:---------- | -------------------------------------------------------------------------------------|
 | `fetch`    | Mengunduh objek dan referensi dari repositori                                        | 
 | `pull`     | Ambil dan integrasikan dengan repositori lain atau cabang lokal                      |
 | `push`     | Mengunggah hasil kerja (commit) ke upstream bersama dengan objek terkait             |
