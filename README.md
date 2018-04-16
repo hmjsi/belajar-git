@@ -144,6 +144,8 @@ Daftar perintah Git
 
 
 # Bonus
+## Git Ignore
+## Integrasi dengan Visual Studio Code
 ## Milestones
 ## Wiki
 ## Projects
